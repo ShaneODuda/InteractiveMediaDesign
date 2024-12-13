@@ -1,0 +1,576 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Splash Screen */
+#splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #041421,	#1e4a63);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.splash-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.splash-content p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #042630, #4f676e);
+  padding: 2rem 0;
+}
+
+/* General Section Styling */
+#AboutMe {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  padding: 5rem 0;
+}
+
+#AboutMe h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+/* Row Styling */
+#AboutMe .row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Column Styling */
+#AboutMe .col-md-4 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#AboutMe .col-md-4:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Text Styling */
+#AboutMe p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+#AboutMe p b {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #AboutMe h1 {
+      font-size: 2rem;
+  }
+
+  #AboutMe .row {
+      flex-direction: column;
+      gap: 1.5rem;
+  }
+
+  #AboutMe .col-md-4 {
+      padding: 1.5rem;
+  }
+}
+
+/* General Section Styling */
+#Education {
+  background: linear-gradient(135deg, #0A5E77, #063847);
+  padding: 5rem 0;
+}
+
+#Education h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+/* Card Styling */
+#Education .card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#Education .card-title {
+  font-size: 1.5rem;
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+}
+
+#Education .card-subtitle {
+  font-size: 1.2rem;
+  color: #c0c0c0;
+}
+
+#Education .card-text {
+  font-size: 1rem;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+#Education .card-link {
+  font-size: 1rem;
+  color: #4ca1af;
+  transition: color 0.3s ease;
+}
+
+#Education .card-link:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+/* Table Styling */
+#Education .table {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-top: 2rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#Education .table thead {
+  background: #4ca1af;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#Education .table th, #Education .table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#Education .table tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#Education .table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#Education .table th {
+  border-bottom: 2px solid #4ca1af;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #Education h1 {
+      font-size: 2rem;
+  }
+
+  #Education .card {
+      padding: 1.5rem;
+  }
+
+  #Education .table th, #Education .table td {
+      padding: 0.5rem 0.75rem;
+  }
+}
+
+
+#Education .show-table-button:hover {
+  background: #4ca1af;
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+#Education .table-visible {
+  display: table;
+  max-height: 1000px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #Education h1 {
+      font-size: 2rem;
+  }
+
+  #Education .card {
+      padding: 1.5rem;
+  }
+
+  #Education .show-table-button {
+      padding: 0.4rem 0.8rem;
+  }
+}
+
+/* General Section Styling */
+#Education {
+  background: linear-gradient(135deg, #063847, #04252f);
+  padding: 5rem 0;
+}
+
+#Education h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+/* Card Styling */
+#Education .card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#Education .card-title {
+  font-size: 1.5rem;
+  color: #ffd700;
+  margin-bottom: 0.5rem;
+}
+
+#Education .card-subtitle {
+  font-size: 1.2rem;
+  color: #c0c0c0;
+}
+
+#Education .card-text {
+  font-size: 1rem;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+#Education .card-link {
+  font-size: 1rem;
+  color: #4ca1af;
+  transition: color 0.3s ease;
+}
+
+#Education .card-link:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+/* Table Styling */
+#Education .table {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin-top: 2rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#Education .table thead {
+  background: #4ca1af;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#Education .table th, #Education .table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#Education .table tbody tr:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#Education .table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#Education .table th {
+  border-bottom: 2px solid #4ca1af;
+}
+
+/* Experience Section Styling */
+#Experience {
+  background: linear-gradient(135deg, #16222A, #3A6073);
+  padding: 5rem 0;
+}
+
+#Experience h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+#Experience .row {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#Experience .col {
+  flex: 1;
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#Experience img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#Experience img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+#Experience .modal-content {
+  background: #2c3e50;
+  color: #ecf0f1;
+  border-radius: 10px;
+}
+
+#Experience .modal-header {
+  border-bottom: 1px solid #7f8c8d;
+}
+
+#Experience .modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#Experience .modal-body ul {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+#Experience .modal-body ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #Education h1, #Experience h1 {
+      font-size: 2rem;
+  }
+
+  #Experience .row {
+      flex-wrap: wrap;
+  }
+
+  #Experience .col {
+      max-width: 100%;
+      margin-bottom: 1.5rem;
+  }
+}
+
+#Projects {
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  padding: 5rem 0;
+}
+
+#Projects h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+
+#projectsCarousel .card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 15px;
+  padding: 2rem;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#projectsCarousel .card-title {
+  color: #ffd700;
+  font-size: 1.8rem;
+}
+
+#projectsCarousel .card-subtitle {
+  color: #c0c0c0;
+  font-size: 1.2rem;
+}
+
+#projectsCarousel .card-text {
+  color: #f0f0f0;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#projectsCarousel .carousel-control-prev-icon,
+#projectsCarousel .carousel-control-next-icon {
+  background-color: #ffd700;
+  border-radius: 50%;
+}
+
+#projectsCarousel .carousel-control-prev-icon:hover,
+#projectsCarousel .carousel-control-next-icon:hover {
+  background-color: #c0c0c0;
+}
+
+#projectsCarousel .carousel-indicators [data-bs-target] {
+  background-color: #ffd700;
+}
+
+#projectsCarousel .carousel-indicators [data-bs-target]:hover {
+  background-color: #c0c0c0;
+}
+
+#projectsCarousel .carousel-indicators .active {
+  background-color: #4e4376;
+}
+
+/* Styling the contact section */
+#contact {
+  background: linear-gradient(135deg, #161A36, #737586);
+  color: white;
+  padding: 3rem 1rem;
+}
+
+#contact .title {
+  margin-bottom: 2rem;
+}
+
+#contact h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Form container */
+#contact .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Input styling */
+#contact .form-control {
+  background-color: #495057;
+  color: white;
+  border: 1px solid #6c757d;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+#contact .form-control:focus {
+  background-color: #6c757d;
+  color: white;
+  border-color: #ffc107;
+  outline: none;
+  box-shadow: 0 0 0.2rem rgba(255, 193, 7, 0.5);
+}
+
+/* Checkbox styling */
+#contact .form-check-label {
+  color: #ffc107;
+}
+
+/* Button styling */
+#contact .btn {
+  background-color: #ffc107;
+  border: none;
+  color: #343a40;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+#contact .btn:hover {
+  background-color: #e0a800;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  #contact h1 {
+      font-size: 2rem;
+  }
+
+  #contact .form-row .col {
+      margin-bottom: 1rem;
+  }
+}
+
+#successMessage{
+  background-color: #4f152f;
+}
+
+/* Add smooth sliding effect */
+.offcanvas {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* When offcanvas is hidden, it should be off-screen */
+.offcanvas-start {
+  transform: translateX(-100%); /* Off-screen initially */
+}
+
+/* When offcanvas is shown, it will slide in */
+.offcanvas.show {
+  transform: translateX(0); /* Slide in */
+}
+
+  /* Modal background color */
+  .custom-modal {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Customize close button */
+.btn-close-white {
+    filter: invert(1);
+}
+
+/* Ensure list text in modal is white */
+.custom-modal ul {
+    list-style-type: none;
+    padding: 0;
+}

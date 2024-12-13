@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet"> <!-- Your custom CSS -->
+</head>
+
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen">
+        <div class="splash-content">
+            <h1>Welcome to Shane's Portfolio</h1>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-dark fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navigation</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#AboutMe">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Experience">Work Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <header class="hero-section text-white text-center">
+        <div class="container">
+            <img src="images/Dog.jpg" alt="profile" class="rounded-circle mb-3" width="120">
+            <h1 class="display-5 hero-title">Shane O'Duda (X00182885)</h1>
+            <p class="lead hero-subtitle">Computing with Software Development</p>
+        </div>
+    </header>
+
+    <section id="AboutMe" class="py-5">
+        <div class="container">
+            <div class="about-me text-white text-center">
+                <h1><b>About Me</b></h1>
+                <div class="row">
+                    <div class="col-md-4 text-white">
+                        <p>
+                            <b>Personal:</b> I am 22 years old, I am currently studying in my 4th year for my Bachelor's
+                            degree. I have many hobbies and interests. I live with my mam,
+                            my dad and my brother. We also own a lurcher dog named Larry.
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-white">
+                        <p>
+                            <b>Hobbies:</b> In my spare time, when I am not too busy studying, I like to go to the gym.
+                            The gym helps me let off some steam when I'm stressed out with
+                            upcoming exams or deadlines. I also like to save up my money so that I have the
+                            opportunities to travel.
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-white">
+                        <p>
+                            <b>Achievements:</b> During my school years I had attended a primary and secondary
+                            Gaelscoil.
+                            This means that I am fluent in Irish and I have earned
+                            the Fáinne óir (Gold ring). Fáinne symbolizes your link to the Irish language. An Fáinne is
+                            worn to show that you are able to and are willing to speak
+                            Irish. The Silver Fáinne is suitable for those who have a basic ability in Irish. The Gold
+                            Fáinne indicates that you are a fluent Irish speaker.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Education" class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-4 text-white"><b>Education</b></h1>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Education</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">TU Dublin:</h6>
+                    <p class="card-text">I am currently studying in TU Dublin doing an honours bachelor's degree in
+                        Computing with Software Development.</p>
+                    <a href="https://www.tudublin.ie/" class="card-link">TU Dublin</a>
+                    <a href="https://www.tudublin.ie/study/undergraduate/courses/computing-with-software-development/"
+                        class="card-link">Course link</a>
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">3rd Year Grades</th>
+                        <th scope="col">Course Title</th>
+                        <th scope="col">Final Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>EXPERIENTIAL LEARNING</td>
+                        <td>PS</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Server-side Web Development</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Operating Systems</td>
+                        <td>B-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Cloud Service & Distrib Comp</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Big Data Technologies</td>
+                        <td>D</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Data Structures & Algorithms</td>
+                        <td>B-</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">7</th>
+                        <td>Data Analysis</td>
+                        <td>B+</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="Experience" class="py-5">
+        <div class="container">
+            <div class="title text-center text-white">
+                <h1><b>Work Experience</b></h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="images/fbd.jpg" alt="Course 1" class="img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#course1Modal">
+                </div>
+                <div class="col">
+                    <img src="images/DDLETB.jpg" alt="Course 2" class="img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#course2Modal">
+                </div>
+                <div class="col">
+                    <img src="images/fleet.jpg" alt="Course 3" class="img-fluid" data-bs-toggle="modal"
+                        data-bs-target="#course3Modal">
+                </div>
+            </div>
+
+            <div class="modal fade" id="course1Modal" tabindex="-1" aria-labelledby="course1ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="course1ModalLabel">FBD Insurance</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Detailed information about this wok experience.</b></p>
+                            <ul>
+                                <li><b>Position:</b> Software Developer</li>
+                                <li><b>Duration:</b> 9 months</li>
+                                <li><b>Description:</b> This was part of my 3rd year Internship for college, I was
+                                    on the Dev team solving issues such as database issues, and taking online
+                                    training courses.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="course2Modal" tabindex="-1" aria-labelledby="course2ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="course2ModalLabel">DDLETB</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Detailed information about this wok experience.</b></p>
+                            <ul>
+                                <li><b>position:</b> Assistant to networking engineer</li>
+                                <li><b>Duration:</b> 2 months</li>
+                                <li><b>Description:</b> This was part of my transition year work experience when I
+                                    was 15, I was an assistant to a networking engineer. I helped with various tasks
+                                    such as installing antivirus on computers in different shcools and helping with
+                                    cable input on different serves.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="course3Modal" tabindex="-1" aria-labelledby="course3ModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="course3ModalLabel">The Fleet Hotel</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p><b>Detailed information about this job.</b></p>
+                            <ul>
+                                <li><b>Position</b> Bartender</li>
+                                <li><b>Duration:</b> 2020 - Current</li>
+                                <li><b>Description:</b> I work in this hotel as a bartender. I create many
+                                    drinks/Cocktails and I also deal with many different people from all over the
+                                    world that are travelling in Dublin.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects" class="py-5">
+        <div class="container text-white text-center">
+            <h1><b>Projects</b></h1>
+            <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card mx-auto">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>2nd Year Project</b></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Django Ecommerce Cinema Website</h6>
+                                <p class="card-text">This was a 2-person group project where we had to create an
+                                    Ecommerce cinema website using the Django Framework.</p>
+                                <p><b>Grade:</b> B</p>
+                                <p><b>Module:</b> Software Development 3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card mx-auto">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>2nd Year Project</b></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">2nd Django Ecommerce Website</h6>
+                                <p class="card-text">This was a 3-person group project to create another Ecommerce
+                                    website using the Django Framework. It included cart and checkout functionality
+                                    using Stripe.</p>
+                                <p><b>Grade:</b> B</p>
+                                <p><b>Module:</b> Project</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card mx-auto">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>3rd Year Project</b></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Data Analysis Project</h6>
+                                <p class="card-text">This was a 4-person group project where we analyzed a Kaggle
+                                    dataset to discover patterns or trends using data analysis techniques.</p>
+                                <p><b>Grade:</b> B</p>
+                                <p><b>Module:</b> Data Analysis</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card mx-auto">
+                            <div class="card-body">
+                                <h5 class="card-title"><b>Internship Project</b></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">System Update</h6>
+                                <p class="card-text">While working at FBD Insurance, I was part of a team working on
+                                    system updates involving database operations using PL/SQL.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="title text-center text-white">
+            <h1><b>Contact Me</b></h1>
+        </div>
+        <form id="contactForm">
+            <div class="container">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="forms">
+                    <label for="EmailInput">Email Address</label>
+                    <input type="email" class="form-control" id="email-form" placeholder="Email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Feedback</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Click to receive email updates about the website
+                    </label>
+                </div>
+                <!-- Align buttons beside each other -->
+                <div class="d-flex justify-content-center gap-3 mt-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#ContactModal">My Contact Info</button>
+                </div>
+            </div>
+        </form>
+        <!-- Success message card -->
+        <div id="successMessage" class="card text-center text-white mt-4"
+            style="display: none; max-width: 400px; margin: 0 auto;">
+            <div class="card-body">
+                <h5 class="card-title">Form Successfully Submitted!</h5>
+                <p class="card-text">Thank you for contacting me. Your feedback will be taken into consideration.</p>
+            </div>
+        </div>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="ContactModal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content custom-modal">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-white" id="ModalLabel">My Contact Information</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="text-white">
+                            <li><b>Name: </b>Shane O'Duda</li>
+                            <li><b>Xnumber: </b>X00182885</li>
+                            <li><b>Email: </b>X00182885@mytudublin.ie</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
